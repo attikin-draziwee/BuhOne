@@ -1,0 +1,113 @@
+@import url(./styles/reset.css);
+@import url(./styles/fonts.css);
+@import url(./styles/header.css);
+@import url(./styles/hero.css);
+@import url(./styles/services.css);
+
+:root {
+  --accent: #005FA3;
+  --gray: #EBEBEB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+/* Сброс стилей */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Стили объектов */
+
+.container {
+  max-width: 1116px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+}
+
+.logo__img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: min(30px,
+      10vmin);
+}
+
+.logo__text {
+  vertical-align: middle;
+  color: var(--accent);
+  font-family: 'Merriweather';
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+/* Buttons */
+
+.button {
+  display: inline-block;
+  color: white;
+  font-size: 1.125rem;
+  padding: 1.05em 3.3em;
+
+  background-color: var(--accent);
+}
+
+.button--CTA {
+  font-size: 1.5625rem;
+  padding: 1.2em 2.32em;
+}
+
+/* Titles and Headers */
+
+.heading-one {
+  font-family: 'Merriweather';
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+  line-height: 138%;
+}
+
+.heading-two {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #BDBDBD;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.subtitle {
+  font-family: 'Merriweather';
+  font-weight: 900;
+  font-size: 3rem;
+  color: #333333;
+}

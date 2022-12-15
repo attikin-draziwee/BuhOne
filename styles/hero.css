@@ -1,0 +1,17 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url(../img/bg.webp) center center/cover no-repeat;
+  /* background-image: url(../img/bg.webp) ; */
+  /* background-color: rgba(0, 0, 0, .6); */
+}
+
+.hero__container {
+  min-height: 670px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.hero__heading {}
