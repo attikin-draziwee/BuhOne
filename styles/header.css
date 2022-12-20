@@ -26,7 +26,8 @@
   align-items: center;
 }
 
-.address__link {
+.address__item>.address__link,
+.address__item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,9 +35,23 @@
   font-size: 0.8rem;
 }
 
+.address__link:hover {
+  text-decoration: underline;
+}
+
 .address__icon {
   width: 20px;
   height: 20px;
+  fill: var(--darkgray);
+  transition: .3s all ease;
+}
+
+.address__icon--phone {
+  width: 10px;
+}
+
+.address__item:hover .address__icon {
+  fill: var(--accent);
 }
 
 .nav {
@@ -54,5 +69,10 @@
   font-size: 0.88rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: var(--darkgray);
+  transition: .3s ease all;
+}
 
+.nav__link:hover {
+  color: var(--accent);
 }

@@ -17,7 +17,9 @@
   gap: 30px;
 }
 
-.services__item {
+.services__link {
+  display: block;
+  height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)), url(../img/service.webp) center center/cover;
   display: flex;
@@ -28,10 +30,8 @@
   transition: .3s all ease;
 }
 
-.services__item:hover {
+.services__link:hover {
   filter: brightness(1.5);
-  /* background: linear-gradient(rgba(0, 95, 163, 0.6),
-      rgba(0, 95, 163, 0.6)), url(../img/service.webp) center center/cover; */
   cursor: pointer;
 }
 

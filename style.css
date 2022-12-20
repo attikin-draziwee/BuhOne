@@ -3,10 +3,12 @@
 @import url(./styles/header.css);
 @import url(./styles/hero.css);
 @import url(./styles/services.css);
+@import url(./styles/about.css);
 
 :root {
   --accent: #005FA3;
   --gray: #EBEBEB;
+  --darkgray: #333;
 }
 
 * {
@@ -110,4 +112,10 @@ li {
   font-weight: 900;
   font-size: 3rem;
   color: #333333;
+  line-height: 144.6%;
+}
+
+.subtitle--blue {
+  display: block;
+  color: var(--accent);
 }
