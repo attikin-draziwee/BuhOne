@@ -1,0 +1,28 @@
+.clients {
+  background-color: var(--gray);
+}
+
+.clients__container {
+  min-height: 596px;
+  height: 100%;
+}
+
+.clients__title {
+  margin-bottom: 2.625rem;
+}
+
+.clients__list {
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-template-rows: 111px 111px;
+  gap: 30px;
+}
+
+.clients__item {
+  filter: contrast(.6);
+  transition: .3s ease filter;
+}
+
+.clients__item:hover {
+  filter: contrast(1);
+}

@@ -4,6 +4,9 @@
 @import url(./styles/hero.css);
 @import url(./styles/services.css);
 @import url(./styles/about.css);
+@import url(./styles/clients.css);
+@import url(./styles/reviews.css);
+@import url(./styles/opportunity.css);
 
 :root {
   --accent: #005FA3;
@@ -118,4 +121,13 @@ li {
 .subtitle--blue {
   display: block;
   color: var(--accent);
+}
+
+/* containers */
+
+.opportunity__container,
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
