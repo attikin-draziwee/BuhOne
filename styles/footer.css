@@ -1,0 +1,125 @@
+.footer {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url(../img/bg.webp) center center/cover no-repeat;
+}
+
+.footer__container {
+  min-height: 623px;
+  gap: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  gap: 100px;
+  justify-content: start;
+  align-items: start;
+}
+
+.footer__main {
+  min-height: 259px;
+  max-width: 29.3125rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__subtitle {
+  line-height: .3 !important;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer__label {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.footer__input,
+.footer__input::placeholder {
+  outline: none;
+  border-bottom: 2px;
+  border-color: white;
+  color: #BDBDBD;
+  font-weight: 300;
+  font-family: Lato, sans-serif;
+  font-size: 1.3125rem;
+}
+
+.footer__input {
+  display: block;
+  padding-block: 0.9375rem;
+  color: white;
+  width: 100%;
+  border: 1px solid transparent;
+  border-bottom-color: white;
+}
+
+.footer__datas {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 2.1875rem;
+}
+
+.footer__message {
+  display: block;
+  width: 100%;
+  margin-bottom: 3.125rem;
+}
+
+.footer__text {
+  font-size: 1.125rem;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 138%;
+}
+
+.footer__metas {
+  display: flex;
+  gap: 32px;
+}
+
+.footer__meta {}
+
+.footer__link {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer__icon {
+  width: 35px;
+  height: 34px;
+}
+
+.footer__bottom {
+  height: 120px;
+  background-color: white;
+}
+
+.footer__bottom-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__info {
+  font-size: 0.875rem;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: black;
+}

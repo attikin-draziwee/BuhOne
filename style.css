@@ -7,6 +7,7 @@
 @import url(./styles/clients.css);
 @import url(./styles/reviews.css);
 @import url(./styles/opportunity.css);
+@import url(./styles/footer.css);
 
 :root {
   --accent: #005FA3;
@@ -140,6 +141,10 @@ li {
 .subtitle--blue {
   display: block;
   color: var(--accent);
+}
+
+.subtitle--white {
+  color: white;
 }
 
 /* containers */
