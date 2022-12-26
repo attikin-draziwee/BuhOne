@@ -77,6 +77,13 @@
   margin-bottom: 3.125rem;
 }
 
+.footer__constrains {
+  max-width: 29.4375rem;
+  min-width: 29.4375rem;
+  max-height: 12.1875rem;
+  min-height: 6.5rem;
+}
+
 .footer__text {
   font-size: 1.125rem;
   font-family: Lato, sans-serif;
@@ -88,8 +95,6 @@
   display: flex;
   gap: 32px;
 }
-
-.footer__meta {}
 
 .footer__link {
   display: inline-flex;
