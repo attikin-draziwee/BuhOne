@@ -80,13 +80,22 @@ li {
   color: white;
   font-size: 1.125rem;
   padding: 1.05em 3.3em;
-
   background-color: var(--accent);
+  transition: .3s linear;
+}
+
+.button:active {
+  filter: brightness(.8);
 }
 
 .button--CTA {
   font-size: 1.5625rem;
   padding: 1.2em 2.32em;
+}
+
+.button--CTA:hover {
+  color: var(--accent);
+  background-color: #fff;
 }
 
 .button--arrow {
