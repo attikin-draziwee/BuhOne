@@ -26,13 +26,13 @@ body {
   font-weight: 400;
 }
 
-/* Сброс стилей */
+/* Reset styles */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Стили объектов */
+/* Tags styles */
 
 .container {
   max-width: 1116px;
@@ -84,7 +84,7 @@ li {
   transition: .3s linear;
 }
 
-.button:active {
+.button:active:not(:disabled) {
   filter: brightness(.8);
 }
 
