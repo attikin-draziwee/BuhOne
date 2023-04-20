@@ -61,6 +61,7 @@
   padding-block: 0.9375rem;
   color: white;
   width: 100%;
+  resize: none;
   border: 1px solid transparent;
   border-bottom-color: white;
 }

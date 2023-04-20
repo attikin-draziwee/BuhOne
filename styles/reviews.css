@@ -90,13 +90,13 @@
 }
 
 .review__input {
+  cursor: pointer;
   position: relative;
   width: 0;
   height: 0;
 }
 
 .review__input::after {
-  cursor: pointer;
   position: absolute;
   border-radius: 50%;
   content: '';

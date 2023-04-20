@@ -20,6 +20,7 @@
 .services__link {
   display: block;
   height: 100%;
+  position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)), url(../img/service.webp) center center/cover;
   display: flex;
